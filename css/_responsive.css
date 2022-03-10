@@ -1,0 +1,54 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default css for extra small devices */
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .flex-center {
+    flex-direction: row;
+  }
+
+  .flex {
+    flex-direction: row;
+  }
+
+  .flex-between {
+    flex-direction: row;
+  }
+
+  .flex-end {
+    flex-direction: row;
+  }
+
+  .section {
+    min-height: 600px;
+  }
+
+  /* hero */
+  .hero {
+    min-height: 700px;
+  }
+
+  .hero .container {
+    max-width: 60%;
+    margin: auto;
+  }
+
+	.hero h1 {
+    font-size: 6em;
+}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
